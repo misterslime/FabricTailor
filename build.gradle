@@ -22,6 +22,9 @@ repositories {
 		url 'https://jitpack.io'
 	}
 	maven {
+		url 'https://maven.gegy1000.net'
+	}
+	maven {
 		url 'https://masa.dy.fi/maven'
 	}
 }
@@ -39,7 +42,7 @@ dependencies {
 
 	// LuckPerms
 	modImplementation 'me.lucko:fabric-permissions-api:0.1-SNAPSHOT'
-	modCompileOnly('com.github.samolego.Taterzens:taterzens-fabric:1.1.0')
+	modCompileOnly('com.github.samolego.Taterzens:taterzens-fabric:1.2.0')
 
 	//modRuntime("com.github.gnembon:fabric-carpet:${project.carpet_core_version}")
 	//modRuntime "com.github.gnembon:fabric-carpet:${project.carpet_branch}-SNAPSHOT"
